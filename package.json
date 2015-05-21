@@ -1,5 +1,6 @@
 {
   "name": "voxel-hologram-example",
+  "version": "0.0.0",
   "description": "A demo of the voxel-hologram theme.",
   "url": "https://github.com/rishabhsrao/voxel-hologram-example",
   "license": "./license.md",
