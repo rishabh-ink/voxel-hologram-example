@@ -35,7 +35,8 @@ module.exports = {
       compass: ".compassrc",
       bower: "bower.json",
       testMain: "main.js",
-      karma: ".karmarc"
+      karma: ".karmarc",
+      hologram: ".hologramrc"
     },
     coverageReporter: {
       lcov: "lcov.info",
