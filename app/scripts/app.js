@@ -1,5 +1,5 @@
-define(["jquery", "components/example"],
-function($,        Example) {
+define(["jquery"],
+function($) {
   "use strict";
 
   return {
