@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-var CFG    = require("./utils/config.js");
+var CFG  = require("./utils/config.js");
 var $    = require("gulp-load-plugins")();
 var exec = require("child_process").exec;
 var path = require("path");
