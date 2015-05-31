@@ -16,4 +16,4 @@ gem 'scss-lint', '0.38.0'
 gem 'travis', '1.7.6'
 
 # Hologram (rubygems.org/gems/hologram)
-gem 'hologram', '1.4.0'
+gem 'hologram', '1.3.1'
