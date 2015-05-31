@@ -40,8 +40,8 @@ js_include:
 # RequireJS main file (path from styleguide directory)
 requirejs_main: '../scripts/main.js'
 
-# Bower components (path from styleguide directory)
-bower_path: '../../libraries'
+# RequireJS library file (path from styleguide directory)
+requirejs_lib: '../../libraries/requirejs/require.js'
 
 # Mark which category should be the index page
 # Alternatively, you may have an index.md in the documentation assets
