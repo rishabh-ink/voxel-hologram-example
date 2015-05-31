@@ -1,23 +1,18 @@
-(function(window, document, undefined) {
-  "use strict";
+require.config({
+  paths: {
+    // Libraries
+    "jquery": "../../libraries/jquery/jquery",
+    "hljs": "../../libraries/highlightjs/highlight.pack",
+    "voxel": "../../libraries/voxel/dist/voxel",
+    "voxel-hologram": "../../libraries/voxel/dist/voxel-hologram"
+    // /Libraries
+  },
 
-  require.config({
-    paths: {
-      // Libraries
-      "jquery": "../../libraries/jquery/jquery",
-      // /Libraries
+  shim: {
+  }
+});
 
-      // Application
-      "app": "app",
-      // /Application
-    },
-
-    shim: {
-    }
-  });
-
-  require(["jquery", "app"],
-  function( $,        App) {
-    console.log("App v%s with jQuery v%s says, '%s'", App.version, $.fn.jquery, App.greeting);
-  });
-})(window, document);
+require(["jquery", "voxel-hologram-example"],
+function( $,        VoxelHologramExample) {
+  console.log("App with jQuery v%s says, '%s'", $.fn.jquery, VoxelHologramExample.greet());
+});
