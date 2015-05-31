@@ -17,7 +17,7 @@
   "dependencies": {
     "jquery": "https://github.com/jquery/jquery.git#1.10.2",
     "requirejs": "https://github.com/jrburke/requirejs-bower.git#2.1.17",
-    "voxel-hologram": "https://github.com/rishabhsrao/voxel-hologram.git#0.0.3",
+    "voxel-hologram": "https://github.com/rishabhsrao/voxel-hologram.git#0.1.1",
     "bootstrap-sass": "https://github.com/twbs/bootstrap-sass.git#3.2.0"
   },
   "devDependencies": {
