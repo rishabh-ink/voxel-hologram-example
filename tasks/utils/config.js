@@ -35,6 +35,9 @@ module.exports = {
       compass: ".compassrc",
       bower: "bower.json",
       testMain: "main.js",
+      scriptMain: "main.js",
+      appMain: "voxel-hologram-example.js",
+      appModule: "voxel-hologram-example",
       karma: ".karmarc",
       hologram: ".hologramrc"
     },
