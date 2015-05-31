@@ -26,8 +26,8 @@ code_example_templates: ./libraries/voxel-hologram/dist/code-example-templates
 # Any other asset folders that need to be copied to the destination
 # folder. Typically this will include the css that you are trying to
 # document. May also include additional folders as needed.
-dependencies:
-# -
+# dependencies:
+  # -
 
 # List all CSS files to include for the styleguide render examples (path from styleguide directory)
 css_include:
@@ -35,7 +35,7 @@ css_include:
 
 # List all JavaScript files to include for the styleguide render examples (path from styleguide directory)
 js_include:
-  # -
+  -
 
 # RequireJS main file (path from styleguide directory)
 requirejs_main: '../scripts/main.js'
