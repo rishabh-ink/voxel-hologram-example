@@ -22,7 +22,9 @@ gulp.task("script:optimize", ["script:test"], function (callback) {
     ],
     exclude: [
       "hljs",
-      "jquery"
+      "jquery",
+      "voxel",
+      "voxel-hologram"
       // Add additional libraries to exclude.
     ],
     out: path.join(CFG.DIR.dist, CFG.DIR.script, CFG.FILE.config.appMain)

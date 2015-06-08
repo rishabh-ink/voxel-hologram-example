@@ -3,8 +3,8 @@ require.config({
     // Libraries
     "jquery": "../../libraries/jquery/jquery",
     "hljs": "../../libraries/highlightjs/highlight.pack",
-    "voxel": "../../libraries/voxel/dist/voxel",
-    "voxel-hologram": "../../libraries/voxel/dist/voxel-hologram"
+    "voxel": "../../libraries/voxel/dist/scripts/voxel",
+    "voxel-hologram": "../../libraries/voxel-hologram/dist/scripts/voxel-hologram"
     // /Libraries
   },
 
@@ -14,5 +14,7 @@ require.config({
 
 require(["jquery", "voxel-hologram-example"],
 function( $,        VoxelHologramExample) {
-  console.log("App with jQuery v%s says, '%s'", $.fn.jquery, VoxelHologramExample.greet());
+  var voxelHologramExample = VoxelHologramExample.create();
+
+  console.log("App with jQuery v%s says, '%s'", $.fn.jquery, voxelHologramExample.greet());
 });

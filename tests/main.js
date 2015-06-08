@@ -18,8 +18,8 @@ require.config({
     // Libraries
     "jquery": "libraries/jquery/jquery",
     "hljs": "libraries/highlightjs/highlight.pack",
-    "voxel": "libraries/voxel/dist/voxel",
-    "voxel-hologram": "libraries/voxel/dist/voxel-hologram",
+    "voxel": "libraries/voxel/dist/scripts/voxel",
+    "voxel-hologram": "libraries/voxel-hologram/dist/scripts/voxel-hologram",
     // /Libraries
 
     // Application

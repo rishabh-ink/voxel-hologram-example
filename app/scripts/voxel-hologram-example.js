@@ -1,5 +1,5 @@
-define(["jquery"],
-function($) {
+define(["jquery", "voxel-hologram"],
+function($,        VoxelHologram) {
   "use strict";
 
   var VoxelHologramExample = {
@@ -49,6 +49,8 @@ function($) {
     },
 
     setup: function() {
+      this.components.voxelHologram = VoxelHologram.create();
+
       console.log(this.options.name, "setup()", "Set up components", { components: this.components });
 
       return this;
