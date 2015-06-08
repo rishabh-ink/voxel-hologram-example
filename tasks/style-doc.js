@@ -24,5 +24,7 @@ gulp.task("style:doc", ["style:compile"], function(callback) {
     if(null !== err) {
       $.util.log("[style:doc] err: ", err);
     }
+
+    callback();
   });
 });
