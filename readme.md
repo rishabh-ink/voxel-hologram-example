@@ -1,4 +1,4 @@
-# voxel-hologram-example [:star:](http://voxel-hologram-example-rsr.herokuapp.com/dist)
+# voxel-hologram-example [:star:](http://voxel-hologram-example-rsr.herokuapp.com/dist/docs)
 
 > A demo of the voxel-hologram theme.
 
@@ -12,7 +12,7 @@
 
 ## :star: Live demo
 
-The live demo is hosted on [Heroku](http://www.heroku.com) at [voxel-hologram-example-rsr.herokuapp.com/dist](http://voxel-hologram-example-rsr.herokuapp.com/dist).
+The live demo is hosted on [Heroku](http://www.heroku.com) at [voxel-hologram-example-rsr.herokuapp.com/dist/docs](http://voxel-hologram-example-rsr.herokuapp.com/dist/docs).
 
 
 ## :rowboat: Get started
@@ -79,7 +79,7 @@ bundle clean --force && bundle install
 
 ## :rocket: Deploy
 
-This project is continuously deployed to [Heroku](http://www.heroku.com) at [voxel-hologram-example-rsr.herokuapp.com/dist](http://voxel-hologram-example-rsr.herokuapp.com/dist) using a [NodeJS](https://github.com/heroku/heroku-buildpack-nodejs) [buildpack](https://devcenter.heroku.com/articles/buildpacks) by [Travis](https://travis-ci.org), whenever a new tag is pushed. This should be configured **only once** using the [Heroku toolbelt](https://toolbelt.heroku.com):
+This project is continuously deployed to [Heroku](http://www.heroku.com) at [voxel-hologram-example-rsr.herokuapp.com/dist/docs](http://voxel-hologram-example-rsr.herokuapp.com/dist/docs) using a [NodeJS](https://github.com/heroku/heroku-buildpack-nodejs) [buildpack](https://devcenter.heroku.com/articles/buildpacks) by [Travis](https://travis-ci.org), whenever a new tag is pushed. This should be configured **only once** using the [Heroku toolbelt](https://toolbelt.heroku.com):
 
 ```
 heroku create voxel-hologram-example-rsr
