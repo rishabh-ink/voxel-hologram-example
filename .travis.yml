@@ -1,30 +1,25 @@
-language: node_js
+language: "node_js"
 node_js:
-  - 0.10.29
+  - "0.12"
 git:
-  depth: 10
-cache: # Caching is only supported for private projects.
-  directories:
-  - ./node_modules
-  - ./libraries
-  - $HOME/.rvm/gems
+  depth: "10"
 before_script:
-  - bundle install
-  - ./node_modules/.bin/bower install
+  - "bundle install"
+  - "./node_modules/.bin/bower install"
 script:
-  - ./node_modules/.bin/gulp build
+  - "./node_modules/.bin/gulp build"
 after_success:
-  - ./node_modules/.bin/gulp script:test:report
+  - "./node_modules/.bin/gulp script:test:report"
 notifications:
   email: false
 before_deploy:
-  - ./node_modules/.bin/gulp clean:deploy
+  - "./node_modules/.bin/gulp clean:deploy"
 deploy:
-  provider: heroku
-  app:  voxel-hologram-example-rsr
+  provider: "heroku"
+  app: "voxel-hologram-example-rsr"
   skip_cleanup: true
   on:
     all_branches: true
     tags: true
   api_key:
-    secure: see-the-deploy-section-of-the-readme-to-know-how-to-generate-a-secure-heroku-api-key
+    secure: "JIGCSqoWmVSrpYRzs3nhXCqV0WvIRXQ8WNsxGnTvqd/yFrGKeErTGF291ORCH15WyvaNEFN1EWpnPKI2WqJ5s8eN6wcCLIre6u/5jqCAZpUOM/aTUXxt6E5bUVyB4wbREp+b/MNcq8yAXowCB9rjFKMrOLeOq9r2khQ1P9S9yQSumgV+3ctE97i8AnVoRhpeAmTwoIbXiPYy7BAdTOsP7KELKBcmVbW7Yi9MqKhRtBK8JgUU918h6HxR6WaZuuPsJUdYub2UdEoP8CWTHdO++vZZNC6Pv8b0rvIWeETJMHPWEOLS0FqecL8QqZCHUnL9WMsEaM5tUZOKByY8qTGCtpWopWFBMbUwo8NqyvNZVS/8nBNvyvAlUs+A7tUmKbmVoa5uwDD7bXOaI+t/3iAkLOwT59+j4Yl3ml3ZpzwKJpZ6IUXE6t8vaFj4w+dyXmLNzx5D89xNJpMLSLpfFZpXO5cVli2I5K/wUcT++2qXjgLTbcNJev3CQbDWSTrfe01gFGuO3nf6x70gL5bMZWv4E/xcIoGPzah/DKBrAqdSqVxpA1FU1sXDLEB2we9nqbRd7BjlaAYU+mFiII+iLtj0tnS/GSiUR4IqrrWghg1xUmbPynUhdV4Yqav+UZr4mQ17BdWlIsQXW8+G1MsOjDRGaZnHNU2WFSciRmMrVdlwMBc="
