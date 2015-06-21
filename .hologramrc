@@ -53,6 +53,10 @@ bower_components_dir: '../../libraries'
 # String used to split the category name and create category titles
 name_scope: ' - '
 
+# This string is used to set the color theme for Voxel.
+# Available themes: 'red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'yellow', 'amber', 'orange', 'deep-orange', 'brown', 'gray', 'blue-gray'
+voxel_theme: 'light-green'
+
 # Mark which category should be the index page
 # Alternatively, you may have an index.md in the documentation assets
 # folder instead of specifying this config.
