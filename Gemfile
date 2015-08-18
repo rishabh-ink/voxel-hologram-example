@@ -17,3 +17,6 @@ gem 'travis', '~> 1.7'
 
 # Hologram (rubygems.org/gems/hologram)
 gem 'hologram', '~> 1.3'
+
+# Babel Transpiler (babel-transpiler)
+gem 'babel-transpiler', '~> 0.7'

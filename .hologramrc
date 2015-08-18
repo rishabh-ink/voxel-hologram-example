@@ -19,13 +19,13 @@ documentation_assets: ./libraries/voxel-hologram/dist
 # The folder that contains templates for rendering code examples.
 # If you want to change the way code examples appear in the styleguide,
 # modify the files in this folder
-code_example_templates: ./libraries/voxel-hologram/dist/_templates/code_examples
+code_example_templates: ./libraries/voxel-hologram/dist/_templates/code_examples_templates
 
 # The folder that contains custom code example renderers.
 # If you want to create additional renderers that are not provided
 # by Hologram (i.e. coffeescript renderer, jade renderer, etc)
 # place them in this folder
-# code_example_renderers: ./code_example_renderers
+code_example_renderers: ./libraries/voxel-hologram/dist/_templates/code_example_renderers
 
 custom_markdown: ./libraries/voxel-hologram/dist/_templates/voxel_hologram_markdown_renderer.rb
 
